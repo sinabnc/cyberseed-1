@@ -386,6 +386,74 @@
       line-height: 1.6;
     }
   </style>
+  <style>
+    /* Responsive styling */
+    @media (max-width: 768px) {
+      .elementor-column {
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
+      .elementor-heading-title {
+        font-size: 1.5rem; /* Smaller font size for headings */
+      }
+      .elementor-widget-container img {
+        border-radius: 20px;
+        max-width: 100%;
+        height: auto;
+      }
+      .flexitype-btn-wrapper {
+        display: inline-block;
+        margin: 10px 0;
+      }
+    }
+    @media (max-width: 768px) {
+  /* Stack columns vertically */
+  .elementor-col-50 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Adjust the layout and positioning of absolute elements */
+  .elementor-absolute {
+    position: relative !important;
+    transform: none !important;
+    margin-bottom: 15px;
+  }
+
+  /* Responsive image sizing */
+  .elementor-widget-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Adjust section padding for better mobile spacing */
+  .elementor-section {
+    padding: 20px 10px;
+  }
+
+  /* Center-align text and buttons */
+  .elementor-widget-container,
+  .elementor-icon-list-items {
+    text-align: center;
+  }
+
+  /* Ensure buttons are mobile-friendly */
+  .flexitype-btn-wrapper {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+  }
+  #ham-1{
+    display: none;
+  }
+  #ham-2{
+    display: none;
+  }
+}
+    
+  </style>
   <link rel='stylesheet' id='contact-form-7-css' href='css/style.css' media='all' />
   <link rel='stylesheet' id='woocommerce-layout-css' href='css/woocommerce-layout-css.css' media='all' />
   <link rel='stylesheet' id='woocommerce-smallscreen-css' href='css/woocommerce-smallscreen-css.css'
@@ -1467,118 +1535,107 @@
     </div>
     <div data-elementor-type="wp-page" data-elementor-id="9" class="elementor elementor-9">
       <section
-        class="elementor-section elementor-top-section elementor-element elementor-element-b642d83 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-        data-id="b642d83" data-element_type="section"
-        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-        <div class="elementor-container elementor-column-gap-default">
-          <div
-            class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e8f70b1"
-            data-id="e8f70b1" data-element_type="column">
-            <div class="elementor-widget-wrap elementor-element-populated">
-              <div
-                class="elementor-element elementor-element-d0654b0 elementor-widget__width-auto elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
-                data-id="d0654b0" data-element_type="widget" data-widget_type="icon-list.default">
-                <div class="elementor-widget-container">
-                  <ul class="elementor-icon-list-items">
-                    <li class="elementor-icon-list-item">
-                      <span class="elementor-icon-list-icon">
-                        <svg aria-hidden="true" class="e-font-icon-svg e-fas-circle" viewBox="0 0 512 512"
-                          xmlns="http://www.w3.org/2000/svg">
-                          <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z">
-                          </path>
-                        </svg> </span>
-                      <span class="elementor-icon-list-text">Business Consulting</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="elementor-element elementor-element-0df5375 elementor-widget elementor-widget-heading"
-                data-id="0df5375" data-element_type="widget" data-widget_type="heading.default">
-                <div class="elementor-widget-container">
-                  <h2 class="elementor-heading-title elementor-size-default">Your Partner
-                    <br />in Comprehensive <span class="p_color">Business Solutions</span>
-                  </h2>
-                </div>
-              </div>
-              <div class="elementor-element elementor-element-691c023 elementor-widget elementor-widget-heading"
-                data-id="691c023" data-element_type="widget" data-widget_type="heading.default">
-                <div class="elementor-widget-container">
-                  <p class="elementor-heading-title elementor-size-default">Our professional consulting services will help you to overcome challenges, capitalize on every opportunity to be on the growth track.
-                  </p>
-                </div>
-              </div>
-              <div
-                class="elementor-element elementor-element-2d56fe4 elementor-widget__width-auto elementor-widget elementor-widget-flexitype-creative-button"
-                data-id="2d56fe4" data-element_type="widget" data-widget_type="flexitype-creative-button.default">
-                <div class="elementor-widget-container">
-                  <div class="flexitype-btn">
-                    <a class="flexitype-btn-wrapper button-moema  right" href="service.html" data-text="Get Started">
-                      <span>Get Started</span>
-                      <i class="fas fa-plus"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="elementor-element elementor-element-43a3f5a elementor-widget__width-auto elementor-hidden-mobile elementor-widget elementor-widget-flexitype-icon-box"
-                data-id="43a3f5a" data-element_type="widget" data-widget_type="flexitype-icon-box.default">
-                <div class="elementor-widget-container">
-
-                  <div class="icon__box-item  ">
-                    <div class="icon__box-item-icon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
-                        class="bi bi-telephone" viewBox="0 0 16 16">
-                        <path
-                          d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
-                      </svg>
-                    </div>
-                    <div class="icon__box-item-content">
-                      <div class="title">
-                        <h5>
-                          <a style="color:#032105" href="tel: +91 8089 154 443">
-                            +91 8089 154 443</a>
-                        </h5>
-                        <p>Need help?</p>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
+  class="elementor-section elementor-top-section elementor-element elementor-element-b642d83 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+  data-id="b642d83" data-element_type="section"
+  data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+  <div class="elementor-container elementor-column-gap-default">
+    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e8f70b1"
+         data-id="e8f70b1" data-element_type="column">
+      <div class="elementor-widget-wrap elementor-element-populated">
+        <div
+          class="elementor-element elementor-element-d0654b0 elementor-widget__width-auto elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+          data-id="d0654b0" data-element_type="widget" data-widget_type="icon-list.default">
+          <div class="elementor-widget-container">
+            <ul class="elementor-icon-list-items">
+              <li class="elementor-icon-list-item">
+                <span class="elementor-icon-list-icon">
+                  <svg aria-hidden="true" class="e-font-icon-svg e-fas-circle" viewBox="0 0 512 512"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z">
+                    </path>
+                  </svg>
+                </span>
+                <span class="elementor-icon-list-text">Business Consulting</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="elementor-element elementor-element-0df5375 elementor-widget elementor-widget-heading"
+          data-id="0df5375" data-element_type="widget" data-widget_type="heading.default">
+          <div class="elementor-widget-container">
+            <h2 class="elementor-heading-title elementor-size-default">Your Partner
+              <br />in Comprehensive <span class="p_color">Business Solutions</span>
+            </h2>
+          </div>
+        </div>
+        <div class="elementor-element elementor-element-691c023 elementor-widget elementor-widget-heading"
+          data-id="691c023" data-element_type="widget" data-widget_type="heading.default">
+          <div class="elementor-widget-container">
+            <p class="elementor-heading-title elementor-size-default">Our professional consulting services will help you to overcome challenges, capitalize on every opportunity to be on the growth track.
+            </p>
+          </div>
+        </div>
+        <div
+          class="elementor-element elementor-element-2d56fe4 elementor-widget__width-auto elementor-widget elementor-widget-flexitype-creative-button"
+          data-id="2d56fe4" data-element_type="widget" data-widget_type="flexitype-creative-button.default">
+          <div class="elementor-widget-container">
+            <div class="flexitype-btn">
+              <a class="flexitype-btn-wrapper button-moema  right" href="service.html" data-text="Get Started">
+                <span>Get Started</span>
+                <i class="fas fa-plus"></i>
+              </a>
             </div>
           </div>
-          <div
-            class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e13e74c"
-            data-id="e13e74c" data-element_type="column">
-            <div class="elementor-widget-wrap elementor-element-populated">
-              <div class="elementor-element elementor-element-cd62e62 elementor-widget elementor-widget-image"
-                data-id="cd62e62" data-element_type="widget" data-widget_type="image.default">
-                <div class="elementor-widget-container">
-                  <img style="border-top-left-radius: 360px; /* Adjust the value as needed */border-top-right-radius: 360px; border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;/* Adjust the value as needed *//* Optional: if you want to hide overflow, make sure the image is not stretched */overflow: hidden;" fetchpriority="high" decoding="async" width="550" height="556"
-                    src="images/young-professional-corporate-team-min.webp"
-                    class="attachment-full size-full wp-image-1023" alt=""
-                    
-                    sizes="(max-width: 550px) 100vw, 550px" />
-                </div>
+        </div>
+        <div
+          class="elementor-element elementor-element-43a3f5a elementor-widget__width-auto elementor-hidden-mobile elementor-widget elementor-widget-flexitype-icon-box"
+          data-id="43a3f5a" data-element_type="widget" data-widget_type="flexitype-icon-box.default">
+          <div class="elementor-widget-container">
+            <div class="icon__box-item">
+              <div class="icon__box-item-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                  class="bi bi-telephone" viewBox="0 0 16 16">
+                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58z"/>
+                </svg>
               </div>
-              <div
-                class="elementor-element elementor-element-19a7d53 elementor-widget__width-initial elementor-absolute bounce_y elementor-widget elementor-widget-flexitype-video"
-                data-id="19a7d53" data-element_type="widget"
-                data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="flexitype-video.default">
-                <div class="elementor-widget-container">
-                  <div class="video-icon-alignment">
-                    <div class="play-video-icon video video-pulse">
-                      <a class="video-popup" href="https://www.instagram.com/cyberseed.in/?igsh=MTJ2b2YwemV4eTN1eg%3D%3D">
-                        <i class="fa fa-play"></i>
-                      </a>
-                    </div>
-                  </div>
+              <div class="icon__box-item-content">
+                <div class="title">
+                  <h5>
+                    <a style="color:#032105" href="tel: +91 8089 154 443">+91 8089 154 443</a>
+                  </h5>
+                  <p>Need help?</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+    <div
+      class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e13e74c"
+      data-id="e13e74c" data-element_type="column">
+      <div class="elementor-widget-wrap elementor-element-populated">
+        <div class="elementor-element elementor-element-cd62e62 elementor-widget elementor-widget-image"
+          data-id="cd62e62" data-element_type="widget" data-widget_type="image.default">
+          <div class="elementor-widget-container"> <img style="border-top-left-radius: 360px; /* Adjust the value as needed */border-top-right-radius: 360px; border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;/* Adjust the value as needed *//* Optional: if you want to hide overflow, make sure the image is not stretched */overflow: hidden;" fetchpriority="high" decoding="async" width="550" height="556" src="images/young-professional-corporate-team-min.webp" class="attachment-full size-full wp-image-1023" alt="" sizes="(max-width: 550px) 100vw, 550px" /> </div>
+        </div>
+        <div class="elementor-element elementor-element-19a7d53 elementor-widget__width-initial elementor-absolute bounce_y elementor-widget elementor-widget-flexitype-video"
+          data-id="19a7d53" data-element_type="widget"
+          data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="flexitype-video.default">
+          <div class="elementor-widget-container">
+            <div class="video-icon-alignment">
+              <div class="play-video-icon video video-pulse">
+                <a class="video-popup" href="https://www.instagram.com/cyberseed.in/?igsh=MTJ2b2YwemV4eTN1eg%3D%3D">
+                  <i class="fa fa-play"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
       <section
         class="elementor-section elementor-top-section elementor-element elementor-element-f09b293 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
         data-id="f09b293" data-element_type="section"
@@ -1593,7 +1650,7 @@
                 data-id="d9b30bc" data-element_type="widget"
                 data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
                 <div class="elementor-widget-container">
-                  <img decoding="async" width="80" height="91"
+                  <img decoding="async" width="80" height="91" id="ham-1"
                     src="https://cosion.themeori.com/wp-content/uploads/2024/08/shape.png"
                     class="attachment-full size-full wp-image-1025" alt="" />
                 </div>
@@ -1603,7 +1660,7 @@
                 data-id="fd22848" data-element_type="widget"
                 data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
                 <div class="elementor-widget-container">
-                  <img decoding="async" width="285" height="165"
+                  <img decoding="async" width="285" height="165" id="ham-2"
                     src="https://cosion.themeori.com/wp-content/uploads/2024/05/shape-1.png"
                     class="attachment-full size-full wp-image-162" alt="" />
                 </div>
